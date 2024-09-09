@@ -1,6 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
+  description: "Descripción de mi sitio web",
   name: "Grupo Forani",
   navItems: [
     {
