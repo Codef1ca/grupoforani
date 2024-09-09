@@ -7,7 +7,7 @@ body{
     font-family: "darker-grotesque", sans-serif !important;
 }
 .container-hero {
-    background-image: url(../public/assets/back-home-forani.png);
+    background-image: url(/assets/back-home-forani.png);
     height: 644px;
     display: flex;
     justify-content: left;
