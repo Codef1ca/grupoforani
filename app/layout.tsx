@@ -1,3 +1,4 @@
+
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
 import { Link } from "@nextui-org/link";
@@ -8,6 +9,7 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import Navbar  from "@/components/navbar";
+import Botonarr  from "@/components/botonarriba";
 
 export const metadata: Metadata = {
   title: {
@@ -51,11 +53,14 @@ export default function RootLayout({
               <hr className="linea-footer"></hr>
             <footer className="footer">
             <Link>
-            <img src="/assets/logo-footer.png" alt="Logo" /> 
+            <img src="/assets/logo-footer.png" alt="Logo" className="logo-fo"/> 
             </Link>
+            <div className="boton-ig">
             <Link>
-            <img src="/assets/instagram-footer-forani.png" alt="Logo" /> 
+            <img src="/assets/instagram-footer-forani.png" alt="Logo" className="ig-f" /> 
             </Link>
+            <Botonarr/>
+            </div>
             </footer>
             </div>
           </div>
