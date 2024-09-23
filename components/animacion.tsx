@@ -1,26 +1,23 @@
-'use client';
-import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion"; // Importa motion de framer-motion
+import { useRef, useState, useEffect } from "react";
 
-const AnimatedComponent = ({ children, delay = 0 }) => {
+interface AnimatedComponentProps {
+  children: React.ReactNode;
+  delay?: number;
+}
+
+const AnimatedComponent: React.FC<AnimatedComponentProps> = ({ children, delay = 0 }) => {
   const ref = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
+  // Lógica de animación
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect(); // Desconectar el observador después de que se vuelva visible
-        }
-      },
-      { threshold: 0.1 } // Ajusta el umbral según sea necesario
-    );
-
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsVisible(entry.isIntersecting);
+    });
     if (ref.current) {
       observer.observe(ref.current);
     }
-
     return () => {
       if (ref.current) {
         observer.unobserve(ref.current);
@@ -31,9 +28,9 @@ const AnimatedComponent = ({ children, delay = 0 }) => {
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, y: 20 }} // Estado inicial
-      animate={isVisible ? { opacity: 1, y: 0 } : {}} // Animación cuando es visible
-      transition={{ duration: 0.7, delay }} // Duración de la animación y delay
+      initial={{ opacity: 0 }}
+      animate={{ opacity: isVisible ? 1 : 0 }}
+      transition={{ delay }}
     >
       {children}
     </motion.div>
