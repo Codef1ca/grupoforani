@@ -56,7 +56,7 @@ export default function RootLayout({
             <img src="/assets/logo-footer.png" alt="Logo" className="logo-fo"/> 
             </Link>
             <div className="boton-ig">
-            <Link>
+            <Link href="https://www.instagram.com/grupoforani/">
             <img src="/assets/instagram-footer-forani.png" alt="Logo" className="ig-f" /> 
             </Link>
             <Botonarr/>
