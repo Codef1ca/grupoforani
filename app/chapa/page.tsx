@@ -61,7 +61,7 @@ export default function Mecanicayal() {
       width={1000}
       height={600}
       alt="NextUI hero Image with delay"
-      src="/assets/img-carroceria.png"
+      src="/assets/cambio-chapa1.png"
       className="img-mec"
       />
     </div>
@@ -85,7 +85,7 @@ export default function Mecanicayal() {
       className="card-mec"
       />
         <div className="titulo-card"><h3 className="soloboton">Uso responsable de productos químicos</h3></div>
-        <p className="text-card">La empresa se preocupa por utilizar productos químicos de limpieza y pintura respetuosos con el medio ambiente. Se busca opciones seguras biodegradables y se minimiza la cantidad de productos químicos utilizados en las operaciones.</p>
+        <p className="text-card">La empresa se preocupa por utilizar productos químicos de limpieza y pintura <span className="titulo-negrita">respetuosos con el medio ambiente</span>. Se busca opciones seguras biodegradables y se minimiza la cantidad de productos químicos utilizados en las operaciones.</p>
         
       </div>
       </Animacion>
@@ -97,11 +97,11 @@ export default function Mecanicayal() {
       width={400}
       height={250}
       alt="NextUI hero Image with delay"
-      src="/assets/card2-chapa.png"
+      src="/assets/cambio-chapa2.png"
       className="card-mec"
       />
         <div className="titulo-card"><h3 className="soloboton">Gestión adecuada de residuos</h3></div>
-        <p className="text-card">Los residuos se clasifican y separan correctamente, incluyendo desechos de pintura, aceites usados, filtros de aire y otros materiales. Además, se considera la posibilidad de reciclar o reutilizar estos materiales siempre que sean factibles.
+        <p className="text-card">Los residuos<span className="titulo-negrita">se clasifican y separan correctamente</span>, incluyendo desechos de pintura, aceites usados, filtros de aire y otros materiales. Además, <span className="titulo-negrita">se considera la posibilidad de reciclar o reutilizar</span> estos materiales siempre que sean factibles.
         </p>
         
       </div>
@@ -113,16 +113,30 @@ export default function Mecanicayal() {
       width={400}
       height={250}
       alt="NextUI hero Image with delay"
-      src="/assets/card3-chapa.png"
+      src="/assets/cambio-chapa3.png"
       className="card-mec"
       />
         <div className="titulo-card"><h3 className="soloboton">Colaboración con proveedores sostenibles</h3></div>
-        <p className="text-card">La empresa establece relaciones de colaboración con proveedores que comparten su enfoque sostenible. Se busca trabajar con proveedores que ofrezcan pinturas eco amigables y piezas de automóviles recicladas o reutilizadas.</p>
+        <p className="text-card">La empresa establece relaciones de colaboración con proveedores que comparten su enfoque sostenible. Se busca <span className="titulo-negrita">trabajar con proveedores que ofrezcan pinturas eco amigables y piezas de automóviles recicladas o reutilizadas</span>.</p>
         
       </div>
       </Animacion>
       </div>
       
+    </div>
+
+    <div className="container-cesvi">
+      <h2 className="cesvi-title">Certificación CESVI</h2>
+      <div className="cajita-cesvi">
+        <p className="txt-cesvi">En GF Carrocería y Pintura, nos distinguimos por integrar y ser parte del exclusivo <span className="titulo-negrita">Programa de Desarrollo de Talleres de CESVI</span>, donde hemos alcanzado la <span className="titulo-negrita">certificación de 3 estrellas</span>. Este reconocimiento nos posiciona como un taller modelo y pionero, destacado por nuestra excelencia en calidad, innovación y servicio, brindando a nuestros clientes seguridad, confianza y resultados de primer nivel.</p>
+        <Image
+        width={500}
+        height={300}
+        alt="NextUI hero Image with delay"
+        src="/assets/foto-cesvi.png"
+        className="fot-ces"
+        />
+      </div>
     </div>
 
     <div className="container-contacto">
@@ -139,8 +153,7 @@ export default function Mecanicayal() {
       className="ubi"
       />
       <div className="ubic-txt">
-      <h1>Sucursal Dean Funes 1066 - Salta Capital</h1>
-      <h1>Sucursal Juan E. Tamayo 363 - Salta Capital</h1>
+      <h1 className="tamayo">Sucursal Juan E. Tamayo 363 - Salta Capital</h1>
       </div>
       </div>
       </div>

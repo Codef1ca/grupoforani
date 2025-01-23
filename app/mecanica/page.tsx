@@ -47,7 +47,7 @@ export default function Mecanicayal() {
       width={1000}
       height={600}
       alt="NextUI hero Image with delay"
-      src="/assets/mecanica-foto.png"
+      src="/assets/cambio-mecanica1.png"
       className="img-mec"
       />
     </div>
@@ -68,8 +68,7 @@ export default function Mecanicayal() {
       className="ubi"
       />
       <div className="ubic-txt">
-      <h1>Sucursal Dean Funes 1066 - Salta Capital</h1>
-      <h1>Sucursal Juan E. Tamayo 363 - Salta Capital</h1>
+      <h1 className="tamayo">Sucursal Dean Funes 1066 - Salta Capital</h1>
       </div>
       </div>
       </div>

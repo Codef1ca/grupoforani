@@ -5,39 +5,40 @@ export const siteConfig = {
   name: "Grupo Forani",
   navItems: [
     {
-      label: "Chapa y pintura",
+      label: "Carrocería y pintura",
       href: "/chapa",
     },
     {
-      label: "Mecánica",
+      label: "Servicios para aseguradoras",
       href: "/mecanica",
     },
     {
-      label: "Servicios comerciales",
+      label: "GF multimarcas",
       href: "/sscomerciales",
-    },
-    {
-      label: "Servicios mineros",
-      href: "/ssmineros",
     },
   ],
   menuItems: [
     {
-      label: "Chapa y Pintura",
+      label: "Carrocería y pintura",
       href: "/chapa",
     },
     {
-      label: "Mecánica",
-      href: "/mecanica",
+      label: "Servicios para aseguradoras",
+      href: "/aseguradoras",
     },
     {
-      label: "Servicios comerciales",
-      href: "/sscomerciales",
-    },
-    {
-      label: "Servicios mineros",
-      href: "/ssmineros",
+      label: "GF multimarcas",
+      href: "/multimarca",
     },
   ],
-
+  chapaYPinturaItems: [
+    { label: "Taller de mecanica", href: "/mecanica" },
+    { label: "Repuestos", href: "/sscomerciales" },
+    { label: "Servicios mineros", href: "/ssmineros" },
+    // Otros elementos del menú desplegable...
+  ],
 };
+
+
+
+

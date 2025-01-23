@@ -1,14 +1,15 @@
-'use client';
-import React, { useEffect } from "react";
+"use client";
+
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link } from "@nextui-org/react";
 import { siteConfig } from "@/config/site";
 import { usePathname } from "next/navigation"; // Importa usePathname
+import React, { useEffect } from "react";
+import DropdownMenu from "./dropdownmenu"; // Importa el componente de menú desplegable
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const pathname = usePathname(); // Obtén la ruta actual
-  
-  // Cierra el menú cuando cambia la ruta
+
   useEffect(() => {
     setIsMenuOpen(false); // Cierra el menú en cada cambio de ruta
   }, [pathname]); // Ejecuta el efecto cuando pathname cambie
@@ -22,16 +23,17 @@ export default function App() {
         />
         <NavbarBrand>
           <Link href="/" onClick={() => setIsMenuOpen(false)}>
-            <img src="/assets/logo-navbar-forani.png" alt="Logo" /> 
+            <img src="/assets/logo-navbar-forani.png" alt="Logo" />
           </Link>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-8" justify="center">
+      <DropdownMenu items={siteConfig.chapaYPinturaItems} /> {/* Agrega el menú desplegable */}
         {siteConfig.menuItems.map((item, index) => (
           <NavbarItem key={`${item.label}-${index}`}>
-            <Link 
-              color="foreground" 
+            <Link
+              color="foreground"
               href={item.href}
               onClick={() => setIsMenuOpen(false)}
             >
@@ -39,8 +41,9 @@ export default function App() {
             </Link>
           </NavbarItem>
         ))}
+       
       </NavbarContent>
-  
+
       <NavbarMenu className="nav-menu-back">
         {siteConfig.menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item.label}-${index}`}>
@@ -54,6 +57,7 @@ export default function App() {
             </Link>
           </NavbarMenuItem>
         ))}
+        <DropdownMenu items={siteConfig.chapaYPinturaItems} /> {/* Agrega el menú desplegable en el menú hamburguesa */}
       </NavbarMenu>
     </Navbar>
   );

@@ -38,7 +38,7 @@ export default function Home() {
         <h2 className="texto-debotones">Grupo Forani es el resultado de la <span className="titulo-negrita">consolidación de diversas unidades de negocio creadas y desarrolladas a lo largo de tres generaciones por la familia Forani.</span> Nos enorgullece ofrecer un amplio portafolio de servicios con altos estándares de calidad y tecnología avanzada, cubriendo todas las necesidades para nuestros clientes. </h2>
         </Animacion >
         <div className="botonera">
-          <h3 className="texto-botonera">Nuestros servicios incluyen:</h3>
+          <h3 className="texto-botonera2">Nuestros servicios incluyen:</h3>
           <Animacion>
           <div className="container-solobotones">
             <div className="botonera1">
@@ -127,7 +127,7 @@ export default function Home() {
       width={400}
       height={250}
       alt="NextUI hero Image with delay"
-      src="/assets/img-card2home.png"
+      src="/assets/cambio-home1.png"
       className="card-c"
       />
         <div className="titulo-card"><h3 className="soloboton">Taller de Mecánica y Alineación</h3></div>
@@ -152,7 +152,7 @@ export default function Home() {
       width={400}
       height={250}
       alt="NextUI hero Image with delay"
-      src="/assets/img-card3home.png"
+      src="/assets/cambio-home2.png"
       className="card-c"
       />
         <div className="titulo-card"><h3 className="soloboton">Provisión de Neumáticos y Llantas</h3></div>

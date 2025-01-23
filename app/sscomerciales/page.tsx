@@ -51,7 +51,7 @@ export default function Sscom() {
       width={1000}
       height={600}
       alt="NextUI hero Image with delay"
-      src="/assets/foto1-sscom.png"
+      src="/assets/cambio-repuesto1.png"
       className="img-mec"
       />
     </div>
@@ -123,7 +123,7 @@ export default function Sscom() {
       width={1000}
       height={600}
       alt="NextUI hero Image with delay"
-      src="/assets/foto3-sscom.png"
+      src="/assets/cambio-repuest2.png"
       className="img-mec"
       />
     </div>
@@ -150,7 +150,7 @@ export default function Sscom() {
       width={350}
       height={200}
       alt="NextUI hero Image with delay"
-      src="/assets/foto-nueva.png"
+      src="/assets/cambio-repuesto3.png"
       className="card-mec"
       />
       <div className="texto-ultimocontenedor">
@@ -174,8 +174,7 @@ export default function Sscom() {
       className="ubi"
       />
       <div className="ubic-txt">
-      <h1>Sucursal Dean Funes 1066 - Salta Capital</h1>
-      <h1>Sucursal Juan E. Tamayo 363 - Salta Capital</h1>
+      <h1 className="tamayo">Sucursal Dean Funes 1066 - Salta Capital</h1>
       </div>
       </div>
       </div>

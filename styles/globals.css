@@ -109,6 +109,13 @@ body{
     margin-top: 30px;
 }
 
+.container-solobotones2{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
 .botonera1{
     display: flex;
     flex-direction: row;
@@ -133,6 +140,34 @@ margin-top: 70px;
 .container-solocards {
     display: flex;
     gap: 27px;
+}
+
+.container-cards2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+
+.container-txt-ssmm{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-solocards2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 200px;
 }
 
 
@@ -409,6 +444,16 @@ margin-top: 70px;
     margin-top: 150px;
 }
 
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.text-medium {
+    font-size: 21px !important;
+}
+
 .boton-ig{
     display: flex;
     align-items: center;
@@ -432,6 +477,151 @@ margin-top: 70px;
     display: flex;
     flex-direction: column;
 }
+
+.backdrop-saturate-150 {
+    --tw-backdrop-saturate: saturate(-0.5);}
+
+.dropdown-item{
+    width: 200px;
+    font-size: 18px;
+}
+
+.dropdown-toggle {
+    font-size: 24px;
+}
+
+.container-textoybotones{
+    font-size: 22px;
+}
+
+.soloboton {
+    font-size: 21px;
+}
+
+.text-card {
+    width: 367px;
+    font-size: 21px;
+    color: #F5F5F5;
+}
+
+.subtitulo-cont {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.p-textopeq {
+    font-size: 21px;
+}
+
+.text-large {
+    font-size: 25px;
+}
+
+.py-2 {
+    font-size: 19px;
+}
+
+.tamayo{
+    margin-top: 10px;
+}
+
+.container-cesvi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+.cajita-cesvi{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cesvi-title{
+    font-size: 35px;
+}
+
+.txt-cesvi{
+    width: 40%;
+    font-size: 21px;
+}
+
+.texto-ultimocontenedor {
+    font-size: 21px;
+}
+
+.subtitulo-cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 33px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+.botonera2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.botonera11{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-botonera2{
+    font-size: 30px;
+}
+
+.texto-botonera2-n{
+    font-size: 40px;
+}
+
+.container-texto-aseg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.subtitulo-cont22{
+    font-size: 21px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 50px;
+}
+
+.posic-aseg-sellos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+}
+
 
 @media (max-width: 1800px) {
 .titulo-home {
@@ -564,6 +754,15 @@ margin-top: 70px;
         justify-content: center;
         flex-wrap: wrap;
     }
+    .txt-cesvi{
+        width: 80%;
+        font-size: 21px;
+    }
+    .subtitulo-cont2{
+        margin-left: 200px;
+        margin-right: 200px;
+    
+    }
     
 }
 
@@ -640,6 +839,10 @@ margin-top: 70px;
         flex-direction: column;
         gap: 19px;
         margin-top: -71px;
+    }
+    .subtitulo-cont22 {
+        margin-left: 200px;
+        margin-right: 200px;
     }
 }
 
@@ -769,6 +972,17 @@ margin-top: 70px;
     .contenedor-imagen-ssmin {
         margin-bottom: -13px;
     }
+    .card2{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+    .subtitulo-cont2{
+        margin-left: 100px;
+        margin-right: 100px;
+    
+    }
 }
 
 @media (max-width: 768px){
@@ -816,6 +1030,10 @@ margin-top: 70px;
 .ultimocontenedor{
     gap:68px;
     margin-top: 70px;
+}
+.subtitulo-cont22 {
+    margin-left: 100px;
+    margin-right: 100px;
 }}
 
 
@@ -836,7 +1054,9 @@ margin-top: 70px;
 
 .contenedor-acordeon {
     margin-top: 155px;}
+
 }
+
 
 @media (max-width: 600px){
     .container-contacto {
@@ -951,6 +1171,23 @@ margin-top: 70px;
     .footer {
         padding-left: 27px;
     }
+    .fot-ces{
+        height: 247px !important;
+    }
+    .container-cesvi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+    .cajita-cesvi {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 46px;
+    }
 }
 
 @media (max-width: 500px){
@@ -988,6 +1225,11 @@ margin-top: 70px;
     .container-contacto {
         margin-left: 53px;
         width: 400px;
+    }
+    .subtitulo-cont2{
+        margin-left: 50px;
+        margin-right: 50px;
+    
     }}
 
 @media (max-width: 480px){
@@ -1139,6 +1381,24 @@ margin-top: 70px;
     .container-contacto {
         margin-left: 32px;
     }
+    .container-cesvi {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+    .container-solobotones2 {
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .subtitulo-cont22 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 
 @media (max-width: 384px){
@@ -1256,6 +1516,12 @@ margin-top: 70px;
 .ubic-txt {
     margin-top: 7px;
     font-size: 12px;
+}
+.cesvi-title {
+    font-size: 27px;
+}
+.fot-ces {
+    height: 199px !important;
 }}
 
 
@@ -1319,6 +1585,11 @@ margin-top: 70px;
     margin-left: 26px;
 }
 .container-solobotones{
+    margin-left: 19px;
+    margin-right: 20px;
+}
+
+.container-solobotones2{
     margin-left: 19px;
     margin-right: 20px;
 }
@@ -1520,6 +1791,11 @@ margin-top: 70px;
     margin-left: 0px;
     margin-right: 20px;
 }
+
+.container-solobotones2{
+    margin-left: 0px;
+    margin-right: 20px;
+}
 .texto-botonera {
     margin-left: -3px;
     width: 200px;
@@ -1630,5 +1906,70 @@ margin-top: 70px;
     .img-mec {
         width: 350px !important;
         height: 168px !important;
+    }
+}
+
+    @layer base {
+  :root {
+        --background: 0 0% 100%;
+        --foreground: 0 0% 3.9%;
+        --card: 0 0% 100%;
+        --card-foreground: 0 0% 3.9%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 0 0% 3.9%;
+        --primary: 0 0% 9%;
+        --primary-foreground: 0 0% 98%;
+        --secondary: 0 0% 96.1%;
+        --secondary-foreground: 0 0% 9%;
+        --muted: 0 0% 96.1%;
+        --muted-foreground: 0 0% 45.1%;
+        --accent: 0 0% 96.1%;
+        --accent-foreground: 0 0% 9%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 0 0% 89.8%;
+        --input: 0 0% 89.8%;
+        --ring: 0 0% 3.9%;
+        --chart-1: 12 76% 61%;
+        --chart-2: 173 58% 39%;
+        --chart-3: 197 37% 24%;
+        --chart-4: 43 74% 66%;
+        --chart-5: 27 87% 67%;
+        --radius: 0.5rem;
+    }
+  .dark {
+        --background: 0 0% 3.9%;
+        --foreground: 0 0% 98%;
+        --card: 0 0% 3.9%;
+        --card-foreground: 0 0% 98%;
+        --popover: 0 0% 3.9%;
+        --popover-foreground: 0 0% 98%;
+        --primary: 0 0% 98%;
+        --primary-foreground: 0 0% 9%;
+        --secondary: 0 0% 14.9%;
+        --secondary-foreground: 0 0% 98%;
+        --muted: 0 0% 14.9%;
+        --muted-foreground: 0 0% 63.9%;
+        --accent: 0 0% 14.9%;
+        --accent-foreground: 0 0% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 0 0% 14.9%;
+        --input: 0 0% 14.9%;
+        --ring: 0 0% 83.1%;
+        --chart-1: 220 70% 50%;
+        --chart-2: 160 60% 45%;
+        --chart-3: 30 80% 55%;
+        --chart-4: 280 65% 60%;
+        --chart-5: 340 75% 55%;
+    }
+}
+
+    @layer base {
+  * {
+    @apply border-border;
+    }
+  body {
+    @apply bg-background text-foreground;
     }
 }

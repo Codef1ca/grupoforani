@@ -25,6 +25,9 @@ export default function App() {
       <AccordionItem key="6" aria-label="Control de Calidad Final" title="Control de Calidad Final">
       Verificamos que cada reparación cumpla con nuestros estándares de calidad.
       </AccordionItem>
+      <AccordionItem key="7" aria-label="Entrega del Vehículo" title="Entrega del Vehículo">
+      Entregamos el vehículo completamente restaurado, garantizando la satisfacción del cliente.
+      </AccordionItem>
     </Accordion>
   );
 }
