@@ -49,20 +49,7 @@ export default function RootLayout({
             <main className="main">
               {children}
             </main>
-            <div className="footer-completo">
-              <hr className="linea-footer"></hr>
-            <footer className="footer">
-            <Link>
-            <img src="/assets/logo-footer.png" alt="Logo" className="logo-fo"/> 
-            </Link>
-            <div className="boton-ig">
-            <Link href="https://www.instagram.com/grupoforani/">
-            <img src="/assets/instagram-footer-forani.png" alt="Logo" className="ig-f" /> 
-            </Link>
-            <Botonarr/>
-            </div>
-            </footer>
-            </div>
+           
           </div>
         </Providers>
       </body>

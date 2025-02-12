@@ -5,6 +5,8 @@ import Input from "@/components/input"
 import Botonwpp from "@/components/wpp"
 import Animacion from "@/components/animacion"
 import Carousel from "@/components/carrusel2";
+import Link from "next/link";
+import Botonarr  from "@/components/botonarriba";
 
 export default function Ssmin() {
   return (
@@ -88,6 +90,20 @@ export default function Ssmin() {
       </div>
     </div>
     <Botonwpp/>
+    <div className="footer-completo">
+              <hr className="linea-footer"></hr>
+            <footer className="footer">
+            
+            <img src="/assets/logo-footer.png" alt="Logo" className="logo-fo"/> 
+         
+            <div className="boton-ig">
+            <Link href="https://www.instagram.com/foraniautocenter" target="_blank">
+            <img src="/assets/instagram-footer-forani.png" alt="Logo" className="ig-f" /> 
+            </Link>
+            <Botonarr/>
+            </div>
+            </footer>
+            </div>
     </div>
   );
 }

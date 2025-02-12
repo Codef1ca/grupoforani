@@ -6,6 +6,9 @@ import Input from "@/components/input"
 import Accordion from "@/components/accordion"
 import Botonwpp from "@/components/wpp"
 import Animacion from "@/components/animacion"
+import Link from "next/link";
+import Botonarr  from "@/components/botonarriba";
+
 
 export default function Mecanicayal() {
   return (
@@ -162,6 +165,20 @@ export default function Mecanicayal() {
       </div>
     </div>
     <Botonwpp/>
+    <div className="footer-completo">
+              <hr className="linea-footer"></hr>
+            <footer className="footer">
+            
+            <img src="/assets/logo-footer.png" alt="Logo" className="logo-fo"/> 
+         
+            <div className="boton-ig">
+            <Link href="https://www.instagram.com/foranicarroceriaypintura" target="_blank">
+            <img src="/assets/instagram-footer-forani.png" alt="Logo" className="ig-f" /> 
+            </Link>
+            <Botonarr/>
+            </div>
+            </footer>
+            </div>
     </div>
   );
 }
